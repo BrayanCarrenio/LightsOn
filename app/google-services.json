@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929938161431",
+    "project_id": "lighton-8c061",
+    "storage_bucket": "lighton-8c061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929938161431:android:bf1606c3e40e56bcac0152",
+        "android_client_info": {
+          "package_name": "com.LightsOn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929938161431-0e8bqq7qq7tvnplb80n4t6dcfdq977dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUo8uv250Irt0F4SuGk1OjVc18InAHMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929938161431-0e8bqq7qq7tvnplb80n4t6dcfdq977dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
