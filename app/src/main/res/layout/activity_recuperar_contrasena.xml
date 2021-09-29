@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IniciarSesion">
+    tools:context=".RecuperarContrasena">
 
     <EditText
-        android:id="@+id/txt_CorreoInicio"
+        android:id="@+id/textoNuevaContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="148dp"
         android:ems="10"
-        android:hint="Correo Electrónico"
-        android:inputType="textEmailAddress"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPassword"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -21,39 +21,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt_ContraInicio"
+        android:id="@+id/textoRepetirNuevoContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginBottom="140dp"
         android:ems="10"
-        android:hint="Contraseña"
+        android:hint="Repetir Contraseña"
         android:inputType="textPassword"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_CorreoInicio" />
+        app:layout_constraintTop_toBottomOf="@+id/textoNuevaContrasena"
+        app:layout_constraintVertical_bias="0.112" />
 
     <Button
-        android:id="@+id/boton_Ingresar"
+        android:id="@+id/botonActualizaContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="Ingresar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_ContraInicio" />
-
-    <Button
-        android:id="@+id/botonSiguienteOlvido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:onClick="Olvidar"
-        android:text="¿Olvidaste tu contraseña?"
+        android:layout_marginTop="76dp"
+        android:text="Actualizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boton_Ingresar"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintTop_toBottomOf="@+id/textoRepetirNuevoContrasena"
+        app:layout_constraintVertical_bias="0.015" />
 </androidx.constraintlayout.widget.ConstraintLayout>

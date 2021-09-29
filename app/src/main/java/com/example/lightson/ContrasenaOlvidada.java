@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class IniciarSesion extends AppCompatActivity {
+public class ContrasenaOlvidada extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_iniciar_sesion);
+        setContentView(R.layout.activity_contrasena_olvidada);
     }
-    public void Olvidar (View view){
-        Intent olvido = new Intent(this, ContrasenaOlvidada.class);
-        startActivity(olvido);
+    public void NuevaContrasena (View view){
+        Intent contrasenanuevo = new Intent(this, RecuperarContrasena.class);
+        startActivity(contrasenanuevo);
     }
 }

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(registro);
     }
     public void IniciarSesion (View view){
-        Intent inicio = new Intent(this, RegistrarCuenta.class);
+        Intent inicio = new Intent(this, IniciarSesion.class);
         startActivity(inicio);
     }
 }
