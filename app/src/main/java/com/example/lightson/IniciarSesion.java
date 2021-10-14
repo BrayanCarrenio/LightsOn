@@ -17,4 +17,8 @@ public class IniciarSesion extends AppCompatActivity {
         Intent olvido = new Intent(this, ContrasenaOlvidada.class);
         startActivity(olvido);
     }
+    public void Ingresar (View view){
+        Intent ingreso = new Intent(this, ContrasenaOlvidada.class);
+        startActivity(ingreso);
+    }
 }
